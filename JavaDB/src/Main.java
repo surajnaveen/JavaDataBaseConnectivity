@@ -30,5 +30,8 @@ public class Main {
 
         UpdateData update = new UpdateData();
         update.setData();
+
+        DeleteData delete = new DeleteData();
+        delete.startDelete();
     }
 }
