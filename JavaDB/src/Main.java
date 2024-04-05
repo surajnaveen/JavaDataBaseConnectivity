@@ -1,5 +1,4 @@
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -25,5 +24,11 @@ public class Main {
         catch (Exception e){
             System.out.println("Something went wrong");
         }
+
+        //InsertData insert = new InsertData();
+        //insert.setData();
+
+        UpdateData update = new UpdateData();
+        update.setData();
     }
 }
